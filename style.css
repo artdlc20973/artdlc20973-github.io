@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Lato:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(" https://i.ibb.co/5x0SbT5/edge-png.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: #86e5f9;
+  letter-spacing: 3px;
+  word-spacing: 4px;
+}
+
+hr {
+  margin: 20px auto;
+  border: 1px solid #86e5f9;
+  max-width: 65px;
+  opacity: 1;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  word-spacing: 4px;
+}
+
+.btn-primary {
+  background-color: #86e5f9;
+  color: #000;
+  border: #86e5f9;
+}
+.btn-primary:hover {
+  background-color: #06aaca;
+  color: #fff;
+  border: #06aaca;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+/* .btn-primary::after {
+  background-color: #86e5f9;
+  color: #fff;
+  border: #86e5f9;
+} */
+
+.btn-xl {
+  padding: 0.6rem 2rem;
+}
+
+/* https://i.ibb.co/5x0SbT5/edge-png.jpg */
